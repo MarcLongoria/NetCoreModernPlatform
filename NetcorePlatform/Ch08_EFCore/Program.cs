@@ -1,4 +1,7 @@
-﻿using System;
+﻿using static System.Console;
+using Packt.CS7;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace Packt.CS7
 {
