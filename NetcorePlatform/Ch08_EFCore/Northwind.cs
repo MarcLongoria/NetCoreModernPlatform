@@ -24,7 +24,7 @@ namespace Packt.CS7
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>()
-.Property(category => category.CategoryName)
+                .Property(category => category.CategoryName)
                 .IsRequired()
                 .HasMaxLength(40);
         }

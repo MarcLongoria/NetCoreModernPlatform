@@ -15,6 +15,7 @@ namespace Packt.CS7
         [Column(TypeName = "ntext")]
         public string Description { get; set; }
 
+        //Defines a navigation property for related rows
         public virtual ICollection<Product> Products { get; set; }
         public Category()
         {
